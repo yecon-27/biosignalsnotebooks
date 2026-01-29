@@ -213,6 +213,7 @@ def main():
 
     print("分析完成")
     print(f"输出目录: {out_dir}")
+    print("隐私提示：outputs 目录已被 .gitignore 忽略，避免将实验数据与派生结果提交到公共仓库。")
 
 
 if __name__ == "__main__":

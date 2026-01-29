@@ -57,3 +57,8 @@
 /biosignalsnotebooks_notebooks/unpublished_notebooks/download_file_name.h5
 /biosignalsnotebooks_notebooks/unpublished_notebooks/Other/google_analytics_data.ipynb
 /biosignalsnotebooks_notebooks/images/other/google_analytics_data
+
+# Pilot study privacy: ignore all sensitive files and derived outputs
+/pilot_study/**
+!/pilot_study/analyze_pilot_study.py
+!/pilot_study/README_PRIVACY.md
